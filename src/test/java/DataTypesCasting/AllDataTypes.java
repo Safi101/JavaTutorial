@@ -1,4 +1,4 @@
-package DataTypes;
+package DataTypesCasting;
 
 public class AllDataTypes {
 
@@ -69,13 +69,32 @@ public class AllDataTypes {
 		
 //		Double
 //		The double data type can store fractional numbers from 1.7e−308 to 1.7e+308. Note that you should end the value with a "d":
-
 		System.out.println("6 double");
 		double myDouble;
 		myDouble = 4.4888888888888887777777777777777777777778884;// if value is outside the range, error ??
 		System.out.println("myDouble" + myDouble);
-	
-	
+		
+//		Booleans
+//		A boolean data type is declared with the boolean keyword and can only take the values true or false:
+		System.out.println("7 boolean");
+		boolean myBoolean = true;
+		System.out.println(myBoolean);
+		
+//		Characters
+//		The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+//		
+		System.out.println("8 char");
+		char myChar = 'A';
+		System.out.println(myChar);
+		
+		
+//		Strings
+//		The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+        System.out.println("9 string");	
+        String myString = "john";
+        System.out.println(myString);
+        
+//        Non primitive data types are strings, arrays, classes, interfaces
 	}
 
 }
