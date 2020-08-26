@@ -91,7 +91,7 @@ public class AllDataTypes {
 //		Strings
 //		The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
         System.out.println("9 string");	
-        String myString = "john";
+        java.lang.String myString = "john";
         System.out.println(myString);
         
 //        Non primitive data types are strings, arrays, classes, interfaces
