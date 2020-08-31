@@ -12,4 +12,11 @@ public class MyConstructor1 {
 		System.out.println("constructor1 main method " + obj1.x);
 		
 	}
+	
+
+	
+	
 }
+
+
+
